@@ -13,44 +13,28 @@
         padding: 5px;
         border-radius: 10px;
       }
-      button:hover {
-        background-color: blue;
+      input::placeholder {
+        color: blue;
       }
-      button:active {
-        background-color: tomato;
+      p::selection {
+        background-color: yellowgreen;
+        color: white;
       }
-      button:focus {
-        background-color: yellow;
+      p::first-letter {
+        font-size: 90px;
       }
-      a:visited {
-        color: tomato;
-      }
-      a:hover {
-        color: teal;
-      }
-      form {
-        border: 1px solid salmon;
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-      }
-      form:focus-within {
-        border: 2px solid blue;
-      }
-      form:hover input:focus {
-        background-color: chocolate;
+      p::first-line {
+        background-color: aqua;
+        font-size: 40px;
       }
     </style>
   </head>
   <body class>
-    <div>
-      <button>Hello</button>
-    </div>
-    <a href="https://google.com">Go to google</a>
     <form action="">
-      <input type="text" />
-      <input type="text" />
-      <input type="text" />
+      <input type="text" placeholder="Name" />
     </form>
+    <p>
+      asdf;ashnf;snia;ld<br />fniasdfasdfasdfasdfzxcvwerqwyhgschnsfasdrasfasdrwaa;sdhnf
+    </p>
   </body>
 </html>
