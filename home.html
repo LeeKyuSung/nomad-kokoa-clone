@@ -4,18 +4,31 @@
     <title>Home - my first website</title>
     <style>
       body {
+        height: 100vh;
         margin: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+        align-items: center;
+        flex-wrap: wrap;
       }
       div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 150px;
-        height: 300px;
+        height: 20vh;
+        font-size: 28px;
         background-color: teal;
+      }
+      #second {
+        background-color: bisque;
       }
     </style>
   </head>
   <body class>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div>1</div>
+    <div id="second">2</div>
+    <div>3</div>
   </body>
 </html>
