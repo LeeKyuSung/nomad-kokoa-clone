@@ -13,18 +13,30 @@
         padding: 5px;
         border-radius: 10px;
       }
-      p ~ span {
-        color: blue;
+      input:optional {
+        border: 1px solid wheat;
+      }
+      input:required {
+        border: 1px solid tomato;
+      }
+      input[type="password"] {
+        background-color: blueviolet;
+      }
+      input[placeholder~="name"] {
+        background-color: tomato;
+      }
+      input[placeholder*="t name"] {
+        background-color: blue;
       }
     </style>
   </head>
   <body class>
     <div>
-      <span>first</span>
-      <p>Loasdf;lksnad;fknas;d</p>
-      <address>address</address>
-      <span>second</span>
-      <span>third</span>
+      <form action="">
+        <input type="text" placeholder="First name" />
+        <input type="text" placeholder="Second name" />
+        <input type="password" required placeholder="password" />
+      </form>
     </div>
   </body>
 </html>
