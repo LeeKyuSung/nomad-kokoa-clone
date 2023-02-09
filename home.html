@@ -13,30 +13,44 @@
         padding: 5px;
         border-radius: 10px;
       }
-      input:optional {
-        border: 1px solid wheat;
+      button:hover {
+        background-color: blue;
       }
-      input:required {
-        border: 1px solid tomato;
-      }
-      input[type="password"] {
-        background-color: blueviolet;
-      }
-      input[placeholder~="name"] {
+      button:active {
         background-color: tomato;
       }
-      input[placeholder*="t name"] {
-        background-color: blue;
+      button:focus {
+        background-color: yellow;
+      }
+      a:visited {
+        color: tomato;
+      }
+      a:hover {
+        color: teal;
+      }
+      form {
+        border: 1px solid salmon;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+      }
+      form:focus-within {
+        border: 2px solid blue;
+      }
+      form:hover input:focus {
+        background-color: chocolate;
       }
     </style>
   </head>
   <body class>
     <div>
-      <form action="">
-        <input type="text" placeholder="First name" />
-        <input type="text" placeholder="Second name" />
-        <input type="password" required placeholder="password" />
-      </form>
+      <button>Hello</button>
     </div>
+    <a href="https://google.com">Go to google</a>
+    <form action="">
+      <input type="text" />
+      <input type="text" />
+      <input type="text" />
+    </form>
   </body>
 </html>
