@@ -8,26 +8,32 @@
         margin: 50px;
       }
       span {
-        width: 300px;
-        height: 300px;
-        background-color: tomato;
+        background-color: yellowgreen;
+        color: tomato;
+        padding: 5px;
+        border-radius: 10px;
       }
-      span:nth-child(3n + 1) {
-        background-color: teal;
+      div > span {
+        text-decoration: underline;
+      }
+      div p span {
+        color: teal;
+        text-decoration: none;
+      }
+      p + span {
+        color: blue;
       }
     </style>
   </head>
   <body class>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
-    <span>hello</span>
+    <div>
+      <span>hello</span>
+      <p>
+        Loasdf;lksnad;fknas;dasdfasdfasdfasdfasdasdfs;ldk nasdfln asdlk fnas;
+        kdfj<span>insid span</span>
+      </p>
+      <span>first</span>
+      <span>second</span>
+    </div>
   </body>
 </html>
