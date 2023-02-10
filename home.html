@@ -3,27 +3,23 @@
   <head>
     <title>Home - my first website</title>
     <style>
-      :root {
-        --main-color: rgb(0, 0, 0);
-        --border: 1px solid var(--main-color);
-      }
-      body {
-        height: 1000vh;
-        margin: 50px;
-        background-color: #fcce00;
-      }
-      p {
-        background-color: var(--main-color);
-        color: rgba(252, 206, 0, 0.5);
-      }
       a {
-        color: var(--main-color);
-        border: var(--border);
+        color: white;
+        background-color: tomato;
+        text-decoration: none;
+        padding: 3px 5px;
+        border-radius: 5px;
+        transition: border-radius 500ms cubic-bezier(0.645, 0.045, 0.355, 1),
+          color 2s ease-in-out, background-color 10s ease-in-out;
+      }
+      a:hover {
+        border-radius: 20px;
+        color: tomato;
+        background-color: wheat;
       }
     </style>
   </head>
   <body class>
-    <p>asdf;ashnf;snia;ldfzxcvwerqwyhgschnsfasdrasfasdrwaa;sdhnf</p>
-    <a href="#">website</a>
+    <a href="#">Go home</a>
   </body>
 </html>
