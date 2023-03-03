@@ -19,3 +19,7 @@
 .screen-header__icons span {
   margin-left: 25px;
 }
+
+#top-padding {
+  height: 100px;
+}
