@@ -8,7 +8,12 @@
 }
 
 #friends-display-link i {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.15);
+}
+
+#friends-display-link:last-child {
+  padding-left: 100px;
+  color: tomato;
 }
 
 .friends-screen {
