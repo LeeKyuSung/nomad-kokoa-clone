@@ -25,3 +25,15 @@
   left: 28px;
   bottom: 28px;
 }
+.new-badge {
+  background-color: tomato;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}

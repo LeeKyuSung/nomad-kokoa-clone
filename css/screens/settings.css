@@ -1,17 +1,41 @@
 .settings-screen {
-  padding: 10px var(--horizontal-space);
-  /* background-color: tomato; */
+  padding: 10px 0px;
+  height: 105vh
+}
+.settings-screen #top-padding {
+  height: 93px;
+}
+.settings-list {
+  padding: 0px var(--horizontal-space);
+}
+.settings-list:not(:last-child) {
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 24px;
 }
 .settings-setting {
-  padding: 20px 0px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-  font-size: 18px;
-  color: tomato;
+  padding: 27px 5px;
+  font-size: 23px;
+  color: rgba(0, 0, 0, 0.8);
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+.settings-setting:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .settings-setting i {
-  color:rgba(0, 0, 0, 0.4);
-  margin-right: 20px;
-  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 24px;
+}
+.settings__setting-column {
+  display: flex;
+  align-items: center;
+  justify-self: space-between;
+}
+.settings__setting-column span {
+  margin: 0px 10px 0px 24px;
+}
+.settings__setting-column:last-child {
+  opacity: 0.3;
 }
