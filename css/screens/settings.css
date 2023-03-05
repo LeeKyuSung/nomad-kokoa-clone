@@ -1,0 +1,17 @@
+.settings-screen {
+  padding: 10px var(--horizontal-space);
+  /* background-color: tomato; */
+}
+.settings-setting {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+  color: tomato;
+  display: flex;
+  align-items: center;
+}
+.settings-setting i {
+  color:rgba(0, 0, 0, 0.4);
+  margin-right: 20px;
+  font-size: 20px;
+}
