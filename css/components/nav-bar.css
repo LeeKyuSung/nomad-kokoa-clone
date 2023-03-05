@@ -20,13 +20,3 @@
   left: 20px;
   bottom: 15px;
 }
-.nav__notification2 {
-  background-color: tomato;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  display: flex;
-  position: absolute;
-  left: 26px;
-  bottom: 24px;
-}
