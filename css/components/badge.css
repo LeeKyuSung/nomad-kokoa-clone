@@ -16,6 +16,12 @@
   border-radius: 50%;
   display: flex;
   position: absolute;
-  left: 26px;
-  bottom: 24px;
+}
+.screen-header__icons__icon .empty-badge {
+  left: -6px;
+  bottom: 20px;
+}
+.nav__btn .empty-badge {
+  left: 28px;
+  bottom: 28px;
 }
