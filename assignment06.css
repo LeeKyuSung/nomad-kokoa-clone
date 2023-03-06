@@ -48,6 +48,5 @@ body {
   top: -30%;
 }
 .contents__box__content * {
-  color: tomato;
   word-wrap: break-word;
 }
