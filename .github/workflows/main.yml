@@ -16,5 +16,5 @@ jobs:
     runs-on: self-hosted
 
     steps:
-      - run: cd /home/leekyusung/nomad-kokoa-clone
-      - run: git pull
+      - uses: actions/checkout@v3
+      - run: cp -r . /home/leekyusung/nomad-kokoa-clone
