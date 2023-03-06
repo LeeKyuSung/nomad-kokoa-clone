@@ -1,9 +1,12 @@
+.chat-background,
+.chat-background .status-bar,
+.chat-background .alt-header {
+  background-color: #abc1d1;
+}
+.chat-background #top-padding {
+  height: 90px;
+}
+
 .chat-screen {
-  background-color: #abc1d1;
-}
-.chat-screen .status-bar {
-  background-color: #abc1d1;
-}
-.chat-screen .alt-header {
-  background-color: #abc1d1;
+  padding: 10px 15px;
 }
