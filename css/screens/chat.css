@@ -53,9 +53,26 @@
   border-radius: 10px;
   border-top-left-radius: 0px;
   margin-right: 6px;
-  font-size: 21px;
+  font-size: 22px;
 }
 .message__time {
   opacity: 0.6;
   font-size: 15px;
+}
+.message-row:not(:last-child) {
+  margin-bottom: 23px;
+}
+
+.message-row--own {
+  justify-content: flex-end;
+}
+.message-row--own .message__bubble {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 10px;
+  background-color: var(--yellow);
+  margin-right: 0px;
+  margin-left: 6px;
+}
+.message-row--own .message__info {
+  flex-direction: row-reverse;
 }
