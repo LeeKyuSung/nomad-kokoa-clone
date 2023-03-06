@@ -70,3 +70,7 @@
 .friends .nav__btn:last-child {
   animation-delay: 1.8s;
 }
+
+#bottom-padding {
+  height: 73px;
+}
