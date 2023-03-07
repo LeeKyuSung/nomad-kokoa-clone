@@ -80,6 +80,7 @@
 .reply {
   position: fixed;
   bottom: 0;
+  height: 6.7%;
   width: 100%;
   background-color: white;
   display: flex;
@@ -105,8 +106,8 @@
   font-size: 27px;
 }
 .reply input {
-  padding: 10.5px 15px;
-  margin: 1px 0 1px 2px;
+  padding: 10.5px 3.0%;
+  margin: 0.22% 0 0.22% 0.44%;
   height: 30px;
   width: 94%;
   border: 1.5px solid rgba(0, 0, 0, 0.15);
@@ -117,18 +118,18 @@
 .reply__column:first-child > i {
   font-size: 40px;
   position: absolute;
-  right: 17px;
+  right: 36%;
   top: -1px;
 }
 .reply__column:last-child > i {
   font-size: 31px;
   position: absolute;
-  right: 62px;
+  right: 13%;
   top: 27px;
 }
 .reply__column:last-child button {
   position: absolute;
-  right: -4px;
+  right: -0%;
   top: 4px;
   background-color: var(--yellow);
   border: none;
