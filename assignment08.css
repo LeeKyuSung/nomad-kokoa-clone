@@ -1,0 +1,91 @@
+body {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background-color: #6BBCBE;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dots {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 50px;
+}
+.dot {
+  background-color: white;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+.rectangles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+}
+.rectangle {
+  background-color: white;
+  height: 50px;
+  width: 10px;
+}
+
+@keyframes rotateDots {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+.dots {
+  animation: rotateDots 1s ease infinite;
+}
+
+@keyframes surfRectangles {
+  0% {
+    height: 50px;
+  }
+  50% {
+    height: 80px;
+  }
+  75% {
+    height: 50px;
+  }
+  100% {
+    height: 50px;
+  }
+
+}
+.rectangle:nth-child(1) {
+  animation: surfRectangles 1s ease-in-out infinite;
+  animation-delay: 0.0s;
+}
+.rectangle:nth-child(2) {
+  animation: surfRectangles 1s ease-in-out infinite;
+  animation-delay: 0.1s;
+}
+.rectangle:nth-child(3) {
+  animation: surfRectangles 1s ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+.rectangle:nth-child(4) {
+  animation: surfRectangles 1s ease-in-out infinite;
+  animation-delay: 0.3s;
+}
+.rectangle:nth-child(5) {
+  animation: surfRectangles 1s ease-in-out infinite;
+  animation-delay: 0.4s;
+}
