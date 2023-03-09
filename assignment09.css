@@ -164,6 +164,7 @@ a {
 .music__author {
   font-size: 20px;
   font-weight: 600;
+  color: gray;
 }
 .music:nth-child(1) .music__profile {
   background-color: red;
