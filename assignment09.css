@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.main {
+  width: 500px;
+  height: 1080px;
+  background-color: white;
+  border: 5px solid aqua;
+  padding: 90px 40px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+.header__column {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__column:first-child{
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+.header__icon {
+  color: black;
+}
+.header__title {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.profile {
+  height: 170px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 55px;
+}
+.profile__column:first-child {
+  height: 170px;
+  width: 170px;
+  background-color: orange;
+  border-radius: 10%;
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile__image {
+  color: white;
+}
+.profile__column:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.profile__title {
+  font-size: 54px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.profile__author {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.button:nth-child(n) .button__column a {
+  height: 70px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 5px black;
+}
+.button__play {
+  width: 200px;
+  border-radius: 20px;
+  margin-right: 35px;
+}
+.button__play i {
+  margin-right: 10px;
+}
+.button__play__title {
+  font-size: 25px;
+  font-weight: 700;
+}
+.button__fav {
+  width: 70px;
+  border-radius: 50%;
+  margin-right: 35px;
+}
+.button__plus {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.music-list {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.music {
+  display: flex;
+  flex-direction: row;
+}
+.music__profile {
+  height: 70px;
+  width: 70px;
+  border-radius: 25%;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.music__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.music__title {
+  font-size: 25px;
+  font-weight: 700;
+}
+.music__author {
+  font-size: 20px;
+  font-weight: 600;
+}
+.music:nth-child(1) .music__profile {
+  background-color: red;
+}
+.music:nth-child(2) .music__profile {
+  background-color: pink;
+}
+.music:nth-child(3) .music__profile {
+  background-color: blue;
+}
+.music:nth-child(4) .music__profile {
+  background-color: teal;
+}
